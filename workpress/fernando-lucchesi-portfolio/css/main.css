@@ -1,0 +1,488 @@
+/***** BASE STYLES *****/
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+header a, body p {
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 200;
+}
+
+ .flex-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     padding: 0 10px;
+ }
+
+/***** HEADER MAIN PAGE*****/
+header {
+    background-image: url('../img/portfolioweb.jpg');
+    background-size: cover;
+    /*height: 600px;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+
+}
+
+
+header .flex-container { 
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1, header h3 {
+    text-align: center;
+    color: #733743;
+    margin: 0;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: 400;
+    padding-top: 50px;
+    letter-spacing: 3px;
+}
+
+header h3 {
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 55px;
+}
+ header .navigation {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     order: 3;
+ }
+
+ header nav ul {
+     padding-top: 40px;
+     padding-bottom: 30px;
+     display: flex;
+     flex-direction: row;
+ }
+
+ 
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header ul li {
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #2F4F4F;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/*** SERVICES HOME PAGE ***/
+
+#services {
+    background: rgb(248,248,248);
+background: linear-gradient(180deg, rgba(248,248,248,1) 0%, rgba(230,230,230,1) 100%);
+}
+
+#services, #services .flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.services-header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.services-header h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.services-header a {
+    text-decoration: none;
+    color: #2F4F4F;
+}
+
+.services-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+    height: 450px;
+    background-color: rgba(246,204,204,0.2);
+    margin: 25px 70px;
+    border-radius: 50%;
+}
+
+.services-items img {
+    width: 25%;
+    padding-top: 40px;
+}
+
+.services-items h4 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.services-items p {
+    font-size: 22px;
+}
+
+.services-items a {
+    text-decoration: none;
+    color: #2F4F4F;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/***** ABOUT MAIN PAGE*****/
+
+#about {
+    background: rgb(230,230,230);
+background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(215,215,215,1) 100%);
+    padding: 50px 10px 50px 10px;
+}
+
+
+#about span {
+    color: #A03B60;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#about p {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 40px 60px 40px 60px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+
+/***** CONTACT MAIN PAGE*****/
+#contact {
+    background: rgb(215,215,215);
+background: linear-gradient(180deg, rgba(215,215,215,1) 0%, rgba(248,248,248,1) 100%);
+}
+
+#contact, #contact .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.contact-header {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+#contact h4 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#contact h5 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    /* margin: 0;
+    padding: 50px 0px 20px 0px; */
+    width: 100%;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #733743;
+}
+
+#contact img {
+    margin-top: 40px;
+    border-radius: 50%
+}
+
+#contact i {
+   font-size: 30px;
+}
+
+
+#contact .icon-attribute p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+
+/***** WORK PORTFOLIO PAGE*****/
+
+#work {
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+}
+
+#work-two {
+    background: rgb(240,240,240);
+background: linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 100%);
+}
+
+#work-three {
+    background: rgb(230,230,230);
+background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(215,215,215,1) 100%);
+}
+
+#work, #work .flex-container,
+#work-two, #work-two .flex-container,
+#work-three, #work-three .flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.portfolio-header {
+   text-align: center;
+}
+
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#work h4,
+#work h5,
+#work h6,
+#work-two h4,
+#work-two h5,
+#work-two h6,
+#work-three h4,
+#work-three h5,
+#work-three h6 {
+    margin: 0;
+}
+
+#work h4,
+#work-two h4,
+#work-three h4 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#work h5,
+#work-two h5,
+#work-three h5 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+#work p,
+#work-two p,
+#work-three p {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#work img,
+#work-two img,
+#work-three img {
+    width: 100%;
+    height: auto;
+    /*padding-bottom: 30px;*/
+}
+
+.portfolio-items #kari-elizabeth-design-image,
+.portfolio-items #lolcatclock-image,
+.portfolio-items #magic8-ball-image,
+.portfolio-items #election-map-image,
+.portfolio-items #jubilee-image,
+.portfolio-items #rogue-pickings-image,
+.portfolio-items #unplugged-image,
+.portfolio-items #simple-wordpress-image,
+.portfolio-items #accelerate-image
+ {
+    border: 1px solid darkgrey;
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1200px){
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul {
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 130px;
+}
+
+header h3 {
+    font-size: 50px;
+}
+
+/* SERVICES - HOMEPAGE - DESKTOP */
+
+#services, #services .flex-container {
+   flex-direction: row;
+}
+
+
+.services-items {
+    flex-basis: 30%;
+    margin: 25px 20px;
+}
+
+
+/* PORTFOLIO PAGE- DESKTOP */
+
+#work p,
+#work-two p,
+#work-three p {
+    font-size: 20px;
+}
+
+
+.portfolio-header {
+    width: 100%;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+}    
+
+.portfolio-items a {
+    /* width: 370px; */
+    padding: 0px 10px;
+}
+
+
+.portfolio h5,
+.portfolio p {
+    display: none;
+}
+
+
+
+/* CONTACT DESKTOP*/
+
+.contact-me {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 150px;
+}
+
+#contact .contact-details {
+    flex-basis: 30%;
+}
+
+#contact .contact-details p {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+#contact .social {
+    flex-basis: 30%;
+}
+
+}
